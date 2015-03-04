@@ -38,3 +38,12 @@ define('DB_COLLATE', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+
+/* Revisr */
+define( 'REVISR_GIT_DIR', '/home/onetri6/public_html/onetribewellness.com/wp-content/themes/onetribewellness' );
+
+/* Multisite */
+define('DOMAIN_CURRENT_SITE', 'onetribewellness.com');
+define('PATH_CURRENT_SITE', '/');
+
+define( 'SUNRISE', 'on' );

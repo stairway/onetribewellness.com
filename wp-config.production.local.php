@@ -1,6 +1,6 @@
 <?php
 /**
- * Development environment config settings
+ * Local Production environment config settings
  *
  * Enter any WordPress config settings that are specific to this environment 
  * in this file.
@@ -37,4 +37,13 @@ define('DB_COLLATE', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
+
+/* Revisr */
+define( 'REVISR_GIT_DIR', '/Volumes/Data/Users/ahaller/Sites/onetribewellness.com/wp-content/themes/onetribewellness' );
+
+/* Multisite */
+define('DOMAIN_CURRENT_SITE', 'onetribewellness.local');
+define('PATH_CURRENT_SITE', '/');
+
+define( 'SUNRISE', 'on' );

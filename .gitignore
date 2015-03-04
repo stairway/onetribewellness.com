@@ -120,8 +120,8 @@ wp-content/themes/twentyfifteen/
 !wp-content/themes/onetribewellness/
 !wp-content/themes/onetribewellness_dev/
 
-wp-content/themes/onetribewellness/.git
-wp-content/themes/onetribewellness_dev/.git
+wp-content/themes/onetribewellness/.git/
+wp-content/themes/onetribewellness_dev/.git/
 
 # ignore node/grunt dependency directories
 node_modules/ 

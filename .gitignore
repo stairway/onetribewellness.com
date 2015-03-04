@@ -91,7 +91,10 @@ wp-content/*
 !wp-content/themes/
 !wp-content/plugins/
 !wp-content/uploads/
- 
+
+wp-content/plugins/index.php
+wp-content/plugins/hello.php
+
 # ADVANCED OPTION (disabled by default)
 # ignore everything in the "plugins" directory,
 # except the plugins you specify
@@ -101,8 +104,8 @@ wp-content/*
 # ADVANCED OPTION (disabled by default)
 # ignore everything in the "themes" directory,
 # except the themes you specify
-#wp-content/themes/*
-#!wp-content/themes/bootstrap-genesis/
+wp-content/themes/*
+!wp-content/themes/x/
  
 # ignore specific themes
 wp-content/themes/twentyten/

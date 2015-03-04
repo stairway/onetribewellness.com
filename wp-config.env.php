@@ -17,7 +17,13 @@
 // Set environment based on hostname
 switch ($hostname) {
     case 'onetribewellness.local':
-        define( 'WP_ENV', 'development' );
+        define( 'WP_ENV', 'production.local' );
+        define( 'REVISR_GIT_DIR', '/Volumes/Data/Users/ahaller/Sites/onetribewellness.com/wp-content/themes/onetribewellness' );
+        break;
+        
+    case 'staging.onetribewellness.local':
+        define( 'WP_ENV', 'staging.local' );
+        define( 'REVISR_GIT_DIR', '/Volumes/Data/Users/ahaller/Sites/onetribewellness.com/wp-content/themes/onetribewellness_dev' );
         break;
     
     case 'staging.onetribewellness.com':

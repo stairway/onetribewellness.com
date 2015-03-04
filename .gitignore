@@ -93,7 +93,7 @@ wp-content/*
 # ADVANCED OPTION (disabled by default)
 # ignore everything in the "plugins" directory,
 # except the plugins you specify
-!wp-content/plugins/*
+!wp-content/plugins/
 #!wp-content/plugins/stop-emails/
  
 # ADVANCED OPTION (disabled by default)

@@ -30,9 +30,9 @@
  
 # ignore everything in the root except the "wp-content" directory.
 /*
-!wp-content/
 !wp-config.php
 !wp-config.*.php
+!wp-content/
  
 # ignore all files starting with .
 .*
@@ -87,6 +87,8 @@ Thumbs.db
 # "mu-plugins" directory
 # "themes" directory
 wp-content/*
+!wp-content/sunrise.php
+
 !wp-content/mu-plugins/
 !wp-content/themes/
 !wp-content/plugins/

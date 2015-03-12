@@ -1,4 +1,12 @@
 *** USPS Shipping ***
+2015.03.XX - version 4.2.1
+* Fix inccorect B2 dimension
+
+2015.03.03 - version 4.2.0
+* Automatically define regional rate box sizes if regional rates are enabled.
+* Fix regional rate dimension checks.
+* Use regional rate box inner dimensions.
+* Fix box ID generation.
 
 2015.02.27 - version 4.1.10
 * When there is a priority and flat rate box priority rate, return only the cheapest.

@@ -1,5 +1,9 @@
 <tr valign="top" id="packing_options">
-	<th scope="row" class="titledesc"><?php _e( 'Box Sizes', 'woocommerce-shipping-usps' ); ?></th>
+	<th scope="row" class="titledesc">
+		<?php _e( 'Box Sizes', 'woocommerce-shipping-usps' ); ?>
+
+		<img class="help_tip" data-tip="<?php _e( 'Items will be packed into these boxes based on item dimensions and volume. Outer dimensions will be passed to USPS, whereas inner dimensions will be used for packing. Items not fitting into boxes will be packed individually.', 'woocommerce-shipping-usps' ); ?>" src="<?php echo WC()->plugin_url(); ?>/assets/images/help.png" height="16" width="16" />
+	</th>
 	<td class="forminp">
 		<style type="text/css">
 			.usps_boxes td, .usps_services td, .usps_boxes th, .usps_services th {
@@ -47,7 +51,7 @@
 						<a href="#" class="button minus remove"><?php _e( 'Remove selected box(es)', 'woocommerce-shipping-usps' ); ?></a>
 					</th>
 					<th colspan="8">
-						<small class="description"><?php _e( 'Items will be packed into these boxes based on item dimensions and volume. Outer dimensions will be passed to USPS, whereas inner dimensions will be used for packing. Items not fitting into boxes will be packed individually.', 'woocommerce-shipping-usps' ); ?></small>
+						<small class="description"><?php _e( 'Note: If you are using regional rates, A1, A2, B1, B2 and C box sizes will be defined for you.', 'woocommerce-shipping-usps' ); ?></small>
 					</th>
 				</tr>
 			</tfoot>
